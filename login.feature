@@ -25,7 +25,7 @@ Feature: Login
   
   //@high-impact
   
-  Scenario: Bill logins with a wrong password
+  Scenario: Bill can't log in with a wrong password
     When Bill enters his username
     And  Bill enters wrong password
     Then Bill can't login 

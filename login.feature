@@ -14,7 +14,7 @@ Feature: Login
     
  Scenario: Sean logs in
     When Sean enters his credentials
-    Then Sean logins into the system 
+    Then Sean logs in 
     And Welcome message should say "hello admin"
     
 
